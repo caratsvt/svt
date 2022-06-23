@@ -672,7 +672,7 @@ section.coming-soon .continer .counter .seconds {
   font-weight: 800;
   letter-spacing: 1px;
   color: #fff;
-  background-color: rgba(250,250,250,0.1);
+  background-color: rgba(247,202,201,0.6);
 }
 @media screen and (max-width: 992px) {
 
@@ -738,8 +738,8 @@ section.coming-soon .top-content {
 
 section.coming-soon .top-content h6 {
     font-size: 28px;
-    color: #fff;
-    background-color: rgba(250,250,250,0.2);
+    color: rgb(0, 0, 0);
+    background-color: rgba(247,202,201,0.7);
     padding: 40px;
     text-align: center;
     line-height: 36px;
