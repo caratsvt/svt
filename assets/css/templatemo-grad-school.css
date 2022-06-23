@@ -13,7 +13,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 /* Basic */
-
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
 a {
 	color: #3CF;
     text-decoration: none;
@@ -179,7 +182,7 @@ a.menu-link { display: none; }
 }
 
 .main-header .logo a {
-    font-size: 36px;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 800;
     color: #fff;
@@ -486,16 +489,16 @@ section.features .col-4 {
 
 /* space*/
 section.space {
-  background-color: #000000;
+  background-color: #B3CEE5;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
 }
 /* Why Choosing Us */
 
 section.why-us {
     /* background-image: url(../images/choosing-bg.jpg); */
-    background-color: #000000;
+    background-color: #B3CEE5;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
@@ -628,7 +631,7 @@ section.coming-soon {
     /* background-image: url(../images/coming-soon-bg.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: #B3CEE5;
     padding: 120px 0px;
 }
 
@@ -646,7 +649,7 @@ section.coming-soon .continer h4 {
 }
 section.coming-soon .continer h4 em {
     font-style: normal;
-    color: #f5a425;
+    color: #000000;
 }
 
 @media screen and (max-width: 767px) {
@@ -709,7 +712,7 @@ section.coming-soon .continer .counter .seconds .value {
 section.coming-soon .continer .counter span {
     font-size: 18px;
     text-transform: uppercase;
-    color: #f5a425;
+    color: #000000;
     font-weight: 500;
     letter-spacing: 1px;
     margin-top: 0px;
@@ -802,7 +805,7 @@ section.courses {
     /* background-image: url(../images/choosing-bg.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: #B3CEE5;
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
@@ -1298,7 +1301,7 @@ button::-moz-focus-inner {
   width: 100%;
   height: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-  background: #000;
+  background: #B3CEE5;
 }
 
 /* Main image in popup */
@@ -1453,7 +1456,7 @@ section.contact {
     /* background-image: url(../images/contact-bg.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: #B3CEE5;
     padding-bottom: 120px;
 }
 
@@ -1533,7 +1536,7 @@ section.contact form button {
 /* Footer */
 
 footer {
-    background-color: #000000;
+    background-color: #B3CEE5;
     text-align: center;
 }
 
@@ -1553,7 +1556,7 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 992px) {
-  .features { background-color: #000000; }
+  .features { background-color: #B3CEE5; }
   .features-content { position: relative; }
   .features-post { border-left: 0 }
 }
